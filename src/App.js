@@ -1,24 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Container from './01-函数组件和类组件/Container'
+import RouterDemo from './02-路由拦截和组件的懒加载/RouterDemo';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <RouterDemo/>
     </div>
   );
 }
